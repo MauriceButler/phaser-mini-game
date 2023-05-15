@@ -1,0 +1,21 @@
+{
+    "name": "phaser-mini-game",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-client": "parcel build src/client/index.html",
+        "start-client": "parcel src/client/index.html",
+        "start-server": "node src/server"
+    },
+    "author": "Maurice Butler <maurice.butler@gmail.com> (http://maur.us/)",
+    "license": "MIT",
+    "dependencies": {
+        "phaser": "^3.60.0",
+        "ws": "^8.13.0"
+    },
+    "devDependencies": {
+        "parcel": "^2.8.3",
+        "process": "^0.11.10"
+    }
+}
